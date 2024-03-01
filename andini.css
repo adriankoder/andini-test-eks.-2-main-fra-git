@@ -11,39 +11,60 @@ body {
     z-index: -1;
     height: 200px;
     width: auto;
-    transform: rotate(5deg);
+    top: -150px;
+    position: relative;
+    left: 40px;
     border-radius: 50%;
 }
 
+.AndersDue
 
+{
+
+position: relative;
+left: 300px;
+z-index: -3;
+
+
+}
 
 .andini-med-tørkle-i-honden {
     z-index: -2;
-    height: 605px;
-    top:  -855px; 
+    height: 557px;
+    top:  10px; 
     position: relative;
-   left: 300px;
+    transform: rotate(5deg);
+   left: 500px;
 }
 
 .Andin-forskreket
 
-{z-index: -1;
-    height: 600px;   
+{
+    z-index: -1;
+    height: 557px;   
     width: auto;
     position: relative;
-left: 270px;
-transform: rotate(5deg);
-    top:-840px;
+    left: 70px;
+    top: 10px;
+    transform: rotate(-5deg);
     margin-top: 40px
 }
+.fixed
 
+{
+
+position: fixed;
+
+top: 50px;
+}
 h1 {
-    position: fixed;
+   position: relative;
     z-index: 2;
     color: white;
     text-shadow: 5px 2px blue;
-    top: -5px;
-  left: 500px;
+    top: 80px;
+    font-size: 600%;
+    left: 450px;
 
 }
 
@@ -51,30 +72,69 @@ p {
     color: white;
     text-shadow: 5px 2px blue;
     line-height: 15px;
-    margin-top: 13px;
-    margin-top: 20px; /* Dette overskriver den forrige margin-top; og er unødvendig */
+    top: -50px; /* Dette overskriver den forrige margin-top; og er unødvendig */
+    justify-content: center;
     position: relative;
-    left: 30px;
+    
+    
 }
 
 
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 600px) {
     * { 
     }
+    .fixed
+
+    {
+    
+    position: fixed;
+    
+    top: 0px;
+    }
+    .andini-med-kanin {
+        z-index: -1;
+        height: 200px;
+        width: auto;
+        top: -30px;
+        position: relative;
+        left: 10px;
+        border-radius: 50%;
+    }
+
+    .AndersDue
+
+{
+
+position: relative;
+right: 405%;
+top: 500%;
+z-index: -3;
 
 
+}
+    h1 {
+       position: relative;
+        z-index: 2;
+        color: white;
+        text-shadow: 5px 2px blue;
+        top: 50px;
+        font-size: 400%;
+        justify-content: center;
+      left: 10px;}
 
 .Andin-forskreket
 
-{z-index: -2;
-    height: 650px;   
+{
+    z-index: -2;
+    height: 300px;   
     width: auto;
     position: relative;
-    left: 320px;
-    top: -800px;
+    right: 500px;
+    top: 20%;
     transform: rotate(0deg);
-    margin-top: 40px
+    margin-top: 40%
+    
 
     
 }
@@ -82,19 +142,13 @@ p {
 margin: 50px;
 
 }
-    h1
-    {
-        position: fixed;
-        left: 250px;
-
-    }
     .andini-med-tørkle-i-honden {
-        height: 600px;
+        height: 300px;
         width: auto;
        position: relative;
        transform: rotate(0deg);
-       left: 320px;
-       top: -810px;
+       right: 700%;
+       top: -20%;
 
        
     } 
