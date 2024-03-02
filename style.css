@@ -78,7 +78,7 @@ h1 {
 p {
     color: white;
     text-shadow: 5px 2px blue;
-    line-height: 15px;
+    line-height: 50px;
     top: -50px; /* Dette overskriver den forrige margin-top; og er unødvendig */
     position: relative;
     justify-content: center;
@@ -147,13 +147,13 @@ p {
     
     position: fixed;
     
-    top: 0px;
+    top: -20px;
     }
     .andini-med-kanin {
         z-index: -1;
         height: 200px;
         width: auto;
-        top: -30px;
+        top: -50px;
         position: relative;
         left: 10px;
         border-radius: 50%;
@@ -164,8 +164,8 @@ p {
 {
 
 position: relative;
-right: 405%;
-top: 500%;
+left: 40px;
+top: -200px;
 z-index: -3;
 
 
@@ -175,10 +175,10 @@ z-index: -3;
         z-index: 2;
         color: white;
         text-shadow: 5px 2px blue;
-        top: 50px;
+        top: -10px;
         font-size: 400%;
         justify-content: center;
-      left: 10px;}
+      left: 110px;}
 
 .Andin-forskreket
 
@@ -188,9 +188,10 @@ z-index: -3;
     width: auto;
     position: relative;
     right: 500px;
-    top: 20%;
-    transform: rotate(0deg);
+    top: -300px;
+    transform: rotate(-5deg);
     margin-top: 40%
+    
     
 
     
@@ -203,10 +204,47 @@ margin: 50px;
         height: 300px;
         width: auto;
        position: relative;
-       transform: rotate(0deg);
-       right: 700%;
-       top: -20%;
+       transform: rotate(5deg);
+       left: 10px;
+       top: -300px;
 
        
     } 
 }
+
+@media only screen and (max-width: 901px) {
+    * { 
+    }
+    .Andin-forskreket
+    { z-index: -2;
+        height: 300px;   
+        width: auto;
+        position: relative;
+        right: 500px;
+        top: -400px;
+        transform: rotate(0deg);
+        margin-top: 40%}
+
+
+.andini-med-tørkle-i-honden
+    { z-index: -2;
+        height: 300px;   
+        width: auto;
+        position: relative;
+       left:  -550px;
+        top: 5px;
+        transform: rotate(0deg);
+        margin-top: 40%
+    }
+    .andini-med-kanin
+    {
+
+position: relative;
+top: -20px;
+    }
+    h1
+
+    { font-size: 43px;
+        position: relative;
+        top: 140px;
+    }
