@@ -221,7 +221,7 @@ margin: 50px;
         width: auto;
         position: relative;
         right: 500px;
-        top: -400px;
+        top: -200px;
         transform: rotate(0deg);
         margin-top: 40%}
 
@@ -232,9 +232,21 @@ margin: 50px;
         width: auto;
         position: relative;
        left:  -550px;
-        top: 5px;
+        top: -5px;
         transform: rotate(0deg);
         margin-top: 40%
+    }
+
+
+    .andini-med-tørkle-i-honden
+    
+    {
+        z-index: -2;
+        height: 407px;
+        top:  -350px; 
+        position: relative;
+        transform: rotate(0deg);
+       left: 50px;
     }
     .andini-med-kanin
     {
