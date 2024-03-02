@@ -22,7 +22,7 @@ body {
 {
 
 position: relative;
-left: 300px;
+left: 70px;
 z-index: -3;
 
 
@@ -34,7 +34,7 @@ z-index: -3;
     top:  10px; 
     position: relative;
     transform: rotate(5deg);
-   left: 500px;
+   left: 50px;
 }
 
 .Andin-forskreket
@@ -45,7 +45,7 @@ z-index: -3;
     width: auto;
     position: relative;
     left: 70px;
-    top: 10px;
+    top: -10px;
     transform: rotate(-5deg);
     margin-top: 40px
 }
@@ -55,33 +55,90 @@ z-index: -3;
 
 position: fixed;
 
-top: 50px;
+top: 30px;
 }
 h1 {
    position: relative;
     z-index: 2;
     color: white;
     text-shadow: 5px 2px blue;
-    top: 80px;
-    font-size: 600%;
+    top: 70px;
+    font-size: 570%;
     left: 450px;
 
 }
 
+.hvor-optrer-jeg
+
+{
+
+
+
+}
 p {
     color: white;
     text-shadow: 5px 2px blue;
     line-height: 15px;
     top: -50px; /* Dette overskriver den forrige margin-top; og er unødvendig */
-    justify-content: center;
     position: relative;
-    
+    justify-content: center;
     
 }
 
+@media only screen and (max-width: 1189px) {
+    * { 
+    }
 
 
-@media only screen and (max-width: 600px) {
+    .andini-med-tørkle-i-honden {
+        z-index: -2;
+        height: 407px;
+        top:  -20px; 
+        position: relative;
+        transform: rotate(5deg);
+       left: 100px;
+    }
+    h1 {
+        position: relative;
+         z-index: 2;
+         color: white;
+         text-shadow: 5px 2px blue;
+         top: 50px;
+         font-size: 350%;
+         left: 430px;}
+
+         .andini-med-kanin {
+            z-index: -1;
+            height: 200px;
+            width: auto;
+            top: -50px;
+            position: relative;
+            left: 40px;
+            border-radius: 50%;
+        }
+        .AndersDue
+
+        {
+        
+        position: relative;
+        left: 60px;
+        z-index: -3;
+        height: 500px;
+        
+        }
+        .Andin-forskreket
+
+{
+    z-index: -1;
+    height: 407px;   
+    width: auto;
+    position: relative;
+    left: 50px;
+    top: -10px;
+    transform: rotate(-5deg);
+    margin-top: 40px
+}
+@media only screen and (max-width: 900px) {
     * { 
     }
     .fixed
