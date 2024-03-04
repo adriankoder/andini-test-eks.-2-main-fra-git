@@ -106,7 +106,7 @@ p {
         width: auto;
         position: relative;
         left: 50px;
-        top: -200px;
+        top: -600px;
         transform: rotate(0deg);
         margin-top: 40%}
         
@@ -125,9 +125,9 @@ p {
         .test {
 
             position: relative;
-            left: 500px;
+            left: 450px;
             top: -430px;
-            font-size: 200px;
+            font-size: 150px;
             transform: rotate(-3deg);
             }
 .andini-med-tørkle-i-honden
@@ -135,7 +135,7 @@ p {
         height: 500px;   
         width: auto;
         position: relative;
-        left: 500px;
+        left: 300px;
         top: -650px;
         transform: rotate(5deg);
         border-radius: 15%;
@@ -148,16 +148,15 @@ position: relative;
 top: -20px;
     }
 
-    .hvor-optrer-jeg
 
-    
+
 
     h1
 
-    { font-size: 90px;
+    { font-size: 70px;
         position: relative;
-        left:430px;
-        top: 190px;
+        left:400px;
+        top: 90px;
     }
 p {
     color: white;
