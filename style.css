@@ -81,6 +81,12 @@ p
         transform: rotate(0deg);
         margin-top: 40%}
         
+        .fixed
+
+        {position: fixed;
+        text-shadow: 5px 2px none;
+        top: 30px;
+        z-index: 2;}
 
     .AndersDue
         {height: 400px;   
